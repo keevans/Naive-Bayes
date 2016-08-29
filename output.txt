@@ -1,0 +1,34 @@
+Training Table:
+issues,replace,love,	N 
+comfortable,good,	P 
+love,love,never,	P 
+great,recommend,	P 
+great,love,	P 
+happy,	P 
+not,not,recommend,not,not,happy,terrible,	N 
+bad,never,love,	P 
+love,comfortable,happy,	P 
+good,	N 
+love,good,bad,great,recommend,	P 
+terrible,	N 
+love,	P 
+bad,bad,great,recommend,bad,problems,	N 
+replaced,not,unreliable,never,problems,regret,not,	N 
+love,regret,great,great,not,issues,not,not,	P 
+not,good,replaced,not,not,never,	N 
+not,never,not,never,not,	N 
+love,love,comfortable,	P 
+not,comfortable,good,problem,never,	N 
+great,comfortable,great,not,problems,	P 
+good,issues,	P 
+great,great,recommend,	N 
+problems,problems,never,problems,problems,	N 
+
+Results Table:
+Words	Prediction	Answer
+great,excellent,great,	P	P 
+good,comfort,recommend,	P	P 
+excellent,comfort,good,great,great,	P	P 
+great,replace,love,	P	P 
+unreliable,issues,not,happy,	N	N 
+not,happy,not,not,not,	N	N
